@@ -1,0 +1,9 @@
+[package]
+name = "duplicate_finder"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+walkdir = "2.4"
+sha2 = "0.10"
